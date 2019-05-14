@@ -16,7 +16,7 @@ function playSound(e) {
 
 // Remove transition from the key
 function removTransition(e) {
-    if (e.propertyName !== 'transform') return; // Return if it's not transition
+    if (e.propertyName !== 'transform') return; // Return if it's not transfor,m
     this.classList.remove('playing');
 }
 
