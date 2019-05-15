@@ -18,7 +18,7 @@ function setDate() {
     secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
     minHand.style.transform = `rotate(${minDegrees}deg)`;
     hoursHand.style.transform = `rotate(${hourDegrees}deg)`;
-    
+
     // Disable the transition when it is 0 secound
     [secondHand, minHand, hoursHand].forEach(el => el.style.transition = (seconds === 0) ? 'none' : null);
 }

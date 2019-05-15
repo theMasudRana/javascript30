@@ -1,0 +1,35 @@
+:root {
+    --baseColor: #ffc600;
+    --spacing: 30px;
+    --blur: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    text-align: center;
+    background: #193549;
+    height: 100vh;
+}
+
+.wrapper h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hilight {
+    color: var(--baseColor);
+}
+
+.controls {
+    margin-bottom: 30px;
+}
+img {
+    padding: var(--spacing);
+    background: var(--baseColor);
+    filter: blur(var(--blur));
+}
